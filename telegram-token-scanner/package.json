@@ -1,0 +1,16 @@
+{
+  "name": "telegram-token-scanner",
+  "version": "1.0.0",
+  "description": "Telegram token sniffer — detects leaked bot tokens in group messages",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/test.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
